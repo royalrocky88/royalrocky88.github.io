@@ -1,67 +1,637 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rocky PortFolio.</title>
+    <link rel="stylesheet" href="style.css" />
+    <!----1.---ICONS------>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!------2.------CDN-Typed.js-->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  </head>
+  <body>
+    <!------------------HEADER SECTION--------------------------->
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rocky Portfolio</title>
-    <link rel="shortcut icon" href="image/cleanlogo.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-</head>
+    <header class="header">
+      <div class="logo">Port<span>Folio.</span></div>
+      <ul class="navbar">
+        <li>
+          <a href="#home">Home</a>
+        </li>
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#service">Services</a>
+        </li>
+        <li>
+          <a href="#skill">Skills</a>
+        </li>
+        <li>
+          <a href="#portfolio">Portfolio</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+      <div class="menu-icon">
+        <i class="bx bx-menu" style="color: #0adcf7"></i>
+      </div>
+    </header>
 
-<body>
-    <div id="header">
-        <div class="container">
-            <nav>
-                <img src="image/cleanlogo.png" class="logo" />
-                <ul>
-                    <li><a href="#header">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-            <div class="header-text">
-                <p>
-                    UI/UX Designer, 
-                    <br>Full Stack Developer !!
-                </p>
-                <h1>
-                    Hi, <br> I'm <span>Rocky Ranjan</span> <br> From
-                    <b style="color:#ff9933">IN</b><b style="color:white">D</b><b style="color:green">IA</b>
-                </h1>
-            </div>
+    <!-- ----------HOME SECTION------------------------------- -->
+    <section class="home" id="home">
+      <div class="home-container scroll-scale">
+        <h3>Hello It's Me</h3>
+        <h2>Rocky Ranjan</h2>
+        <div class="change-text">
+          <h3>And I'm</h3>
+          <h3>
+            <span class="word">Web &nbsp Developer</span>
+            <span class="word">Frontend &nbsp Developer</span>
+            <span class="word">UX/UI &nbsp Developer</span>
+            <!-- <span class="text_change"></span> -->
+          </h3>
         </div>
-    </div>
-
-    <!-- --------------------------------ABOUT Section------------------------------ -->
-    <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="about-left">
-                    <img src="image/rocky_3.jpg">
-                </div>
-                <div class="about-right">
-                    <h1 class="sub-tittle">About Me</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi fugit blanditiis error vero a
-                        ut cumque porro praesentium quos, eius tempore quidem iste aspernatur eveniet asperiores fugiat
-                        repellendus delectus quia.
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus in odit quae porro 
-                        repudiandae, dolore et dolor aliquid iusto iure autem. 
-                        Omnis nisi laborum fuga, blanditiis exercitationem non dicta architecto!
-                    </p>
-                    <div class="tab-tittle">
-                        <p class="skill">Skills</p>
-                        <p class="skill">Experience</p>
-                        <p class="skill">Education</p>
-                    </div>
-                </div>
-            </div>
+        <p>
+          I'm a Web Designer with extensive experience for over 3 years.
+          <br />
+          I have a passion for creating visually appealing and user-friendly
+          websites many more...
+        </p>
+        <div class="btn-box">
+          <a href="#about" class="btn">About Me!</a>
         </div>
-    </div>
 
-</body>
+        <div class="info-box">
+          <div class="email-box">
+            <h5>Email :</h5>
+            <span>royalrocky88@gmail.com</span>
+          </div>
+          <div class="behance-box">
+            <h5>Behance :</h5>
+            <span>behance.net/DrZoSanta</span>
+          </div>
+        </div>
+        <div class="btn-box">
+          <a
+            href="Portfolio_img/royalrocky88.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn"
+            >Download CV</a
+          >
+          <a
+            href="https://api.whatsapp.com/send?phone=8826150802&text=Can%20I%20Hire%20You%20For%20Frontend%20Developer&source=&data="
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn"
+            >Hire Me Now!</a
+          >
+        </div>
+        <div class="social-icon">
+          <a
+            href="https://www.linkedin.com/in/rocky-ranjan-royalrocky88/"
+            target="_blank"
+            rel="noopener noreferrer"
+            style="--i: 6"
+          >
+            <i class="bx bxl-linkedin" style="color: blue"></i>
+          </a>
+          <a
+            href="https://github.com/royalrocky88"
+            target="_blank"
+            rel="noopener noreferrer"
+            style="--i: 7"
+          >
+            <i class="bx bxl-github" style="color: gray"></i>
+          </a>
+          <a
+            href="https://www.youtube.com/@royalrocky88"
+            target="_blank"
+            rel="noopener noreferrer"
+            style="--i: 8"
+          >
+            <i class="bx bxl-youtube" style="color: red"></i>
+          </a>
+          <a
+            href="https://api.whatsapp.com/send?phone=8826150802&text=Can%20I%20Hire%20You%20For%20Frontend%20Developer&source=&data="
+            target="_blank"
+            rel="noopener noreferrer"
+            style="--i: 9"
+          >
+            <i class="bx bxl-whatsapp-square" style="color: green"></i>
+          </a>
+        </div>
+      </div>
+      <div class="home-image scroll-scale">
+        <div class="img-box">
+          <img src="Portfolio_img/first4.png" alt="image" />
+        </div>
+        <div class="liquid-shape">
+          <!-- Generate Liquid Blobs by (https://lokesh-coder.github.io/blobs.app/) -->
+          <svg
+            viewBox="0 0 450 500"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            width="100%"
+            height="100%"
+            id="blobSvg"
+          >
+            <path fill="red" stroke-width="7px" stroke="red">
+              <animate
+                attributeName="d"
+                dur="20000ms"
+                repeatCount="indefinite"
+                values="M482,286.5Q475,323,462,359Q449,395,421.5,421.5Q394,448,359.5,464Q325,480,287.5,480.5Q250,481,212,482Q174,483,139,467Q104,451,80,421Q56,391,39.5,357.5Q23,324,19.5,287Q16,250,23.5,214.5Q31,179,48,147.5Q65,116,91,92Q117,68,147.5,48.5Q178,29,214,18Q250,7,287.5,12.5Q325,18,361,33Q397,48,421.5,78Q446,108,461,142.5Q476,177,482.5,213.5Q489,250,482,286.5Z;
+                M472.5,285.5Q467,321,449.5,352Q432,383,409,410.5Q386,438,356.5,462.5Q327,487,288.5,491.5Q250,496,214,484Q178,472,143,459Q108,446,87,415Q66,384,48.5,352.5Q31,321,18.5,285.5Q6,250,12.5,212.5Q19,175,34.5,140Q50,105,77.5,77.5Q105,50,140.5,35.5Q176,21,213,21.5Q250,22,286.5,24Q323,26,353,46Q383,66,410,90Q437,114,462,143.5Q487,173,482.5,211.5Q478,250,472.5,285.5Z;
+                M489.59574,287.05416Q479.43327,324.10832,464.52353,359.77079Q449.6138,395.43327,420.91522,420.343Q392.21663,445.25274,356.5,456.28337Q320.78337,467.31399,285.39168,475.44036Q250,483.56673,211.40974,485.55416Q172.81947,487.54159,144.03611,461.07221Q115.25274,434.60284,84.92779,413.44584Q54.60284,392.28885,37.10284,358.71663Q19.60284,325.14442,13.83752,287.57221Q8.07221,250,19.75274,214.57221Q31.43327,179.14442,46.93327,146.21663Q62.43327,113.28885,86.82495,85.78885Q111.21663,58.28885,143.60832,39.64442Q176,21,213,14.76531Q250,8.53063,288.57221,10.53063Q327.14442,12.53063,354.55416,40.30142Q381.96389,68.07221,414.14442,87.40974Q446.32495,106.74726,458.37363,142.46389Q470.42231,178.18053,485.09026,214.09026Q499.75822,250,489.59574,287.05416Z;
+                M474,286Q472,322,459.5,357.5Q447,393,415,413Q383,433,355,460.5Q327,488,288.5,492Q250,496,213,487Q176,478,146,456Q116,434,88.5,411Q61,388,37,357.5Q13,327,16,288.5Q19,250,19,212.5Q19,175,40.5,144.5Q62,114,86,85.5Q110,57,144.5,45Q179,33,214.5,27.5Q250,22,285,28.5Q320,35,355.5,45.5Q391,56,417,83Q443,110,459,143.5Q475,177,475.5,213.5Q476,250,474,286Z;
+                M465,286.5Q474,323,447,348Q420,373,404,406.5Q388,440,350.5,442Q313,444,281.5,469Q250,494,211.5,490Q173,486,150.5,451.5Q128,417,90.5,405Q53,393,38,358.5Q23,324,28,287Q33,250,40.5,217Q48,184,55,148.5Q62,113,83.5,81.5Q105,50,143.5,45Q182,40,216,29.5Q250,19,288,17.5Q326,16,349.5,48Q373,80,402.5,98.5Q432,117,454.5,146.5Q477,176,466.5,213Q456,250,465,286.5Z;
+                M477.5,286.5Q473,323,450.5,351Q428,379,401,400Q374,421,344,433Q314,445,282,457.5Q250,470,217.5,460.5Q185,451,146,449Q107,447,78.5,421.5Q50,396,45,357Q40,318,43.5,284Q47,250,48.5,217.5Q50,185,50,144.5Q50,104,80.5,81.5Q111,59,148,53.5Q185,48,217.5,39Q250,30,283,37.5Q316,45,342,66.5Q368,88,393.5,107.5Q419,127,431,157Q443,187,462.5,218.5Q482,250,477.5,286.5Z;
+                M456.5,291Q434,332,414,371Q394,410,357,437Q320,464,273,472.5Q226,481,180.5,465Q135,449,96.5,419.5Q58,390,49,342.5Q40,295,44,251Q48,207,61,164.5Q74,122,107.5,91Q141,60,183.5,41.5Q226,23,275.5,21.5Q325,20,355,60Q385,100,425,127Q465,154,472,202Q479,250,456.5,291Z;
+                M420.5,281Q390,312,363,329Q336,346,326.5,401.5Q317,457,273,452Q229,447,192.5,430Q156,413,108,400.5Q60,388,90.5,332.5Q121,277,124,250.5Q127,224,126,191.5Q125,159,126,97.5Q127,36,176,24.5Q225,13,266.5,42.5Q308,72,327.5,107Q347,142,364,167Q381,192,416,221Q451,250,420.5,281Z;
+                M427.5,290Q430,330,406.5,364Q383,398,337,386.5Q291,375,263.5,378Q236,381,209.5,374Q183,367,133.5,369Q84,371,73,330.5Q62,290,83,254.5Q104,219,125.5,197Q147,175,139,109.5Q131,44,179.5,44Q228,44,259,85.5Q290,127,315.5,138Q341,149,355,173Q369,197,397,223.5Q425,250,427.5,290Z;
+                M405,277.5Q373,305,371.5,344Q370,383,346.5,428Q323,473,274,479Q225,485,192.5,446Q160,407,137.5,377.5Q115,348,64,324Q13,300,13.5,250Q14,200,40.5,158.5Q67,117,118,113Q169,109,198,70Q227,31,258.5,78Q290,125,349,100Q408,75,389.5,135.5Q371,196,404,223Q437,250,405,277.5Z;
+                M430.5,298.5Q469,347,438,385.5Q407,424,357.5,426Q308,428,271,415Q234,402,201.5,396.5Q169,391,146.5,366.5Q124,342,122,310Q120,278,74.5,240.5Q29,203,80.5,183.5Q132,164,155.5,145Q179,126,202,69Q225,12,262.5,54.5Q300,97,322,121.5Q344,146,359,170.5Q374,195,383,222.5Q392,250,430.5,298.5Z;
+                M435,278Q375,306,354.5,324.5Q334,343,327,405Q320,467,275,451.5Q230,436,178.5,449.5Q127,463,90,428Q53,393,85.5,335.5Q118,278,109,248Q100,218,104,182.5Q108,147,127.5,109Q147,71,191.5,95Q236,119,274,89.5Q312,60,351.5,77Q391,94,391.5,140.5Q392,187,443.5,218.5Q495,250,435,278Z;"
+              ></animate>
+            </path>
+          </svg>
+        </div>
+        <div class="liquid-shape">
+          <!-- Generate Liquid Blobs by (https://lokesh-coder.github.io/blobs.app/) -->
+          <svg
+            viewBox="0 0 450 500"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            width="100%"
+            height="100%"
+            id="blobSvg"
+          >
+            <path fill="red" stroke-width="8px" stroke="red">
+              <animate
+                attributeName="d"
+                dur="20000ms"
+                repeatCount="indefinite"
+                values="M482,286.5Q475,323,462,359Q449,395,421.5,421.5Q394,448,359.5,464Q325,480,287.5,480.5Q250,481,212,482Q174,483,139,467Q104,451,80,421Q56,391,39.5,357.5Q23,324,19.5,287Q16,250,23.5,214.5Q31,179,48,147.5Q65,116,91,92Q117,68,147.5,48.5Q178,29,214,18Q250,7,287.5,12.5Q325,18,361,33Q397,48,421.5,78Q446,108,461,142.5Q476,177,482.5,213.5Q489,250,482,286.5Z;
+                  M472.5,285.5Q467,321,449.5,352Q432,383,409,410.5Q386,438,356.5,462.5Q327,487,288.5,491.5Q250,496,214,484Q178,472,143,459Q108,446,87,415Q66,384,48.5,352.5Q31,321,18.5,285.5Q6,250,12.5,212.5Q19,175,34.5,140Q50,105,77.5,77.5Q105,50,140.5,35.5Q176,21,213,21.5Q250,22,286.5,24Q323,26,353,46Q383,66,410,90Q437,114,462,143.5Q487,173,482.5,211.5Q478,250,472.5,285.5Z;
+                  M489.59574,287.05416Q479.43327,324.10832,464.52353,359.77079Q449.6138,395.43327,420.91522,420.343Q392.21663,445.25274,356.5,456.28337Q320.78337,467.31399,285.39168,475.44036Q250,483.56673,211.40974,485.55416Q172.81947,487.54159,144.03611,461.07221Q115.25274,434.60284,84.92779,413.44584Q54.60284,392.28885,37.10284,358.71663Q19.60284,325.14442,13.83752,287.57221Q8.07221,250,19.75274,214.57221Q31.43327,179.14442,46.93327,146.21663Q62.43327,113.28885,86.82495,85.78885Q111.21663,58.28885,143.60832,39.64442Q176,21,213,14.76531Q250,8.53063,288.57221,10.53063Q327.14442,12.53063,354.55416,40.30142Q381.96389,68.07221,414.14442,87.40974Q446.32495,106.74726,458.37363,142.46389Q470.42231,178.18053,485.09026,214.09026Q499.75822,250,489.59574,287.05416Z;
+                  M474,286Q472,322,459.5,357.5Q447,393,415,413Q383,433,355,460.5Q327,488,288.5,492Q250,496,213,487Q176,478,146,456Q116,434,88.5,411Q61,388,37,357.5Q13,327,16,288.5Q19,250,19,212.5Q19,175,40.5,144.5Q62,114,86,85.5Q110,57,144.5,45Q179,33,214.5,27.5Q250,22,285,28.5Q320,35,355.5,45.5Q391,56,417,83Q443,110,459,143.5Q475,177,475.5,213.5Q476,250,474,286Z;
+                  M465,286.5Q474,323,447,348Q420,373,404,406.5Q388,440,350.5,442Q313,444,281.5,469Q250,494,211.5,490Q173,486,150.5,451.5Q128,417,90.5,405Q53,393,38,358.5Q23,324,28,287Q33,250,40.5,217Q48,184,55,148.5Q62,113,83.5,81.5Q105,50,143.5,45Q182,40,216,29.5Q250,19,288,17.5Q326,16,349.5,48Q373,80,402.5,98.5Q432,117,454.5,146.5Q477,176,466.5,213Q456,250,465,286.5Z;
+                  M477.5,286.5Q473,323,450.5,351Q428,379,401,400Q374,421,344,433Q314,445,282,457.5Q250,470,217.5,460.5Q185,451,146,449Q107,447,78.5,421.5Q50,396,45,357Q40,318,43.5,284Q47,250,48.5,217.5Q50,185,50,144.5Q50,104,80.5,81.5Q111,59,148,53.5Q185,48,217.5,39Q250,30,283,37.5Q316,45,342,66.5Q368,88,393.5,107.5Q419,127,431,157Q443,187,462.5,218.5Q482,250,477.5,286.5Z;
+                  M456.5,291Q434,332,414,371Q394,410,357,437Q320,464,273,472.5Q226,481,180.5,465Q135,449,96.5,419.5Q58,390,49,342.5Q40,295,44,251Q48,207,61,164.5Q74,122,107.5,91Q141,60,183.5,41.5Q226,23,275.5,21.5Q325,20,355,60Q385,100,425,127Q465,154,472,202Q479,250,456.5,291Z;
+                  M420.5,281Q390,312,363,329Q336,346,326.5,401.5Q317,457,273,452Q229,447,192.5,430Q156,413,108,400.5Q60,388,90.5,332.5Q121,277,124,250.5Q127,224,126,191.5Q125,159,126,97.5Q127,36,176,24.5Q225,13,266.5,42.5Q308,72,327.5,107Q347,142,364,167Q381,192,416,221Q451,250,420.5,281Z;
+                  M427.5,290Q430,330,406.5,364Q383,398,337,386.5Q291,375,263.5,378Q236,381,209.5,374Q183,367,133.5,369Q84,371,73,330.5Q62,290,83,254.5Q104,219,125.5,197Q147,175,139,109.5Q131,44,179.5,44Q228,44,259,85.5Q290,127,315.5,138Q341,149,355,173Q369,197,397,223.5Q425,250,427.5,290Z;
+                  M405,277.5Q373,305,371.5,344Q370,383,346.5,428Q323,473,274,479Q225,485,192.5,446Q160,407,137.5,377.5Q115,348,64,324Q13,300,13.5,250Q14,200,40.5,158.5Q67,117,118,113Q169,109,198,70Q227,31,258.5,78Q290,125,349,100Q408,75,389.5,135.5Q371,196,404,223Q437,250,405,277.5Z;
+                  M430.5,298.5Q469,347,438,385.5Q407,424,357.5,426Q308,428,271,415Q234,402,201.5,396.5Q169,391,146.5,366.5Q124,342,122,310Q120,278,74.5,240.5Q29,203,80.5,183.5Q132,164,155.5,145Q179,126,202,69Q225,12,262.5,54.5Q300,97,322,121.5Q344,146,359,170.5Q374,195,383,222.5Q392,250,430.5,298.5Z;
+                  M435,278Q375,306,354.5,324.5Q334,343,327,405Q320,467,275,451.5Q230,436,178.5,449.5Q127,463,90,428Q53,393,85.5,335.5Q118,278,109,248Q100,218,104,182.5Q108,147,127.5,109Q147,71,191.5,95Q236,119,274,89.5Q312,60,351.5,77Q391,94,391.5,140.5Q392,187,443.5,218.5Q495,250,435,278Z;"
+              ></animate>
+            </path>
+          </svg>
+        </div>
+      </div>
+    </section>
 
+    <!-- ----------ABOUT SECTION------------------------------ -->
+    <section class="about" id="about">
+      <div class="about-img scroll-scale">
+        <img src="Portfolio_img/first4.png" alt="about" />
+        <div class="info-about1">
+          <span>3+</span>
+          <p>Year of Experience</p>
+        </div>
+        <div class="info-about2">
+          <span>10+</span>
+          <p>Project Complete</p>
+        </div>
+        <div class="info-about3">
+          <span>50+</span>
+          <p>Happy Cionts</p>
+        </div>
+      </div>
+      <div class="about-container scroll-scale">
+        <h4>Let's Introduce Myself</h4>
+        <h2>About <span>Me</span></h2>
+        <p>
+          I am a skilled web designer with over 3 years of experience in the
+          industry. My passion lies in creating captivating website designs and
+          implementing them through frontend development. I take pride in
+          staying up-to-date with current design trends and leveraging my
+          creativity to produce visually appealing and user-friendly websites.
+          Throughout my career, I have developed a deep understanding of user
+          experience (UX) and user interface (UI) principles. By putting myself
+          in the shoes of the end-users, I strive to create intuitive and
+          seamless browsing experiences. I believe that a well-designed website
+          should not only look visually appealing but also provide a smooth and
+          enjoyable interaction for visitors. When starting a new project, I
+          research and analyze the target audience and the client's specific
+          requirements. This enables me to tailor my designs to meet their
+          expectations and deliver a unique online presence that aligns with
+          their brand identity...
+        </p>
+        <div class="btn-box">
+          <a href="#" class="btn">Learn More!</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ----------SERVICES SECTION--------------------------- -->
+    <section class="service" id="service">
+      <div class="all-text scroll-scale">
+        <h4>What I Will Do For You</h4>
+        <h2>My <span>Services</span></h2>
+      </div>
+
+      <div class="service-container scroll-bottom">
+        <div class="service-box">
+          <i class="bx bx-code-alt service-icon"></i>
+          <h3>Web <span>Developer</span></h3>
+          <p>
+            responsible for designing, coding, and modifying websites, from
+            layout to function, according to a client's specifications.
+          </p>
+          <div class="btn-box service-btn">
+            <a href="#about" class="btn">Read More</a>
+          </div>
+        </div>
+        <div class="service-box">
+          <i class="bx bx-desktop service-icon"></i>
+          <h3>UI/UX <span>Designer</span></h3>
+          <p>
+            user experience and user interface of digital products, ensuring
+            they are both functional and visually appealing.
+          </p>
+          <div class="btn-box service-btn">
+            <a href="#about" class="btn">Read More</a>
+          </div>
+        </div>
+        <div class="service-box">
+          <i class="bx bx-code-alt service-icon"></i>
+          <h3>Web <span>Designer</span></h3>
+          <p>
+            responsible for creating the visual aspects of websites, ensuring
+            they are both aesthetically pleasing and user-friendly.
+          </p>
+          <div class="btn-box service-btn">
+            <a href="#about" class="btn">Read More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ----------SKILLS SECTION----------------------------- -->
+    <section class="skill" id="skill">
+      <div class="all-text scroll-scale">
+        <h4>technical and professional</h4>
+        <h2>My <span>Skills</span></h2>
+      </div>
+      <div class="skill-main">
+        <div class="skill-left scroll-scale">
+          <h3>Technical Skills</h3>
+          <div class="skill-bar">
+            <div class="info">
+              <p>HTML</p>
+              <p>90%</p>
+            </div>
+            <div class="bar">
+              <span class="html"></span>
+            </div>
+          </div>
+
+          <div class="skill-bar">
+            <div class="info">
+              <p>CSS</p>
+              <p>80%</p>
+            </div>
+            <div class="bar">
+              <span class="css"></span>
+            </div>
+          </div>
+
+          <div class="skill-bar">
+            <div class="info">
+              <p>JAVASCRIPT</p>
+              <p>75%</p>
+            </div>
+            <div class="bar">
+              <span class="javascript"></span>
+            </div>
+          </div>
+
+          <div class="skill-bar">
+            <div class="info">
+              <p>PYTHON</p>
+              <p>70%</p>
+            </div>
+            <div class="bar">
+              <span class="python"></span>
+            </div>
+          </div>
+
+          <div class="skill-bar">
+            <div class="info">
+              <p>REACTJS</p>
+              <p>70%</p>
+            </div>
+            <div class="bar">
+              <span class="react"></span>
+            </div>
+          </div>
+        </div>
+        <div class="skill-right scroll-scale">
+          <h3>Professional Skills</h3>
+          <div class="pro-bar">
+            <div class="box">
+              <div class="circle" data-dots="30" data-percent="90"></div>
+              <div class="text">
+                <big>90%</big>
+                <small>Creativity</small>
+              </div>
+            </div>
+            <div class="box">
+              <div class="circle" data-dots="30" data-percent="90"></div>
+              <div class="text">
+                <big>90%</big>
+                <small>Team Work</small>
+              </div>
+            </div>
+            <div class="box">
+              <div class="circle" data-dots="30" data-percent="70"></div>
+              <div class="text">
+                <big>70%</big>
+                <small>Communication</small>
+              </div>
+            </div>
+            <div class="box">
+              <div class="circle" data-dots="30" data-percent="70"></div>
+              <div class="text">
+                <big>70%</big>
+                <small>Project Management</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ----------PORTFOLIO SECTION-------------------------- -->
+    <section class="portfolio" id="portfolio">
+      <div class="all-text scroll-scale">
+        <h4>what i will do for you</h4>
+        <h2>My <span>Project</span></h2>
+      </div>
+      <div class="portfolio-container">
+        <div class="filter-btn scroll-scale">
+          <!--2-- use filter by  data-filter="name"  -->
+          <button class="btn" data-filter="all">All</button>
+          <button class="btn" data-filter=".game">Game</button>
+          <button class="btn" data-filter=".interest">Interesting</button>
+          <button class="btn" data-filter=".web">Web Page</button>
+        </div>
+        <div class="portfolio-gallery scroll-scale">
+          <!--3-- use filter class mix and filter name -->
+          <div class="port-box mix interest">
+            <div class="port-img">
+              <img src="Portfolio_img/1IPL.jpeg" alt="" />
+            </div>
+            <div class="port-content">
+              <h3>Web Designer</h3>
+              <p>IPL 2020 DashBoard Showing All Teams Status and Information</p>
+              <div class="btn-box">
+                <a
+                  href="https://royalipldetail.ccbp.tech/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn"
+                >
+                  Demo
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="port-box mix web">
+            <div class="port-img">
+              <img src="Portfolio_img/2Blog.jpeg" alt="" />
+            </div>
+            <div class="port-content">
+              <h3>Web Designer</h3>
+              <p>Here Show Sample of Blogs</p>
+
+              <div class="btn-box">
+                <a
+                  href="https://royalblogsfetch.ccbp.tech/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn"
+                >
+                  Demo
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="port-box mix game">
+            <div class="port-img">
+              <img src="Portfolio_img/3MatchGame.jpeg" alt="" />
+            </div>
+            <div class="port-content">
+              <h3>Web Developer</h3>
+              <p>Match Game Is Basically Matching The Image And Scored</p>
+              <div class="btn-box">
+                <a
+                  href="https://gameofimgmatch.ccbp.tech/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn"
+                >
+                  Demo
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="port-box mix game">
+            <div class="port-img">
+              <img src="Portfolio_img/4EmojiGamne.jpeg" alt="" />
+            </div>
+            <div class="port-content">
+              <h3>Web Developer</h3>
+              <p>
+                Emoji Game Basically Remember Game Marked All Emojis And Scored
+                Well
+              </p>
+              <div class="btn-box">
+                <a
+                  href="https://emojigamerocky.ccbp.tech/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn"
+                >
+                  Demo
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="port-box mix interest">
+            <div class="port-img">
+              <img src="Portfolio_img/5PwdManager.jpeg" alt="" />
+            </div>
+            <div class="port-content">
+              <h3>UI/UX Designer</h3>
+              <p>
+                Password Manager Is Basically Where You Can Store Password And
+                Delete It
+              </p>
+              <div class="btn-box">
+                <a
+                  href="https://pwdmanger.ccbp.tech/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn"
+                >
+                  Demo
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="port-box mix interest">
+            <div class="port-img">
+              <img src="Portfolio_img/6MoneyManager.jpeg" alt="" />
+            </div>
+            <div class="port-content">
+              <h3>UI/UX Designer</h3>
+              <p>
+                Money Manager Is Basically Where You Can Store Your Expences And
+                Income Money And Delete It
+              </p>
+              <div class="btn-box">
+                <a
+                  href="https://manageallmoney.ccbp.tech/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn"
+                >
+                  Demo
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="port-box mix interest">
+            <div class="port-img">
+              <img src="Portfolio_img/7FactNumber.jpeg" alt="" />
+            </div>
+            <div class="port-content">
+              <h3>Web Developer</h3>
+              <p>
+                Fact Number Is Basically You Type Any Random Number And Show
+                Fact
+              </p>
+              <div class="btn-box">
+                <a
+                  href="https://rockynumberfact.ccbp.tech/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn"
+                >
+                  Demo
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="port-box mix web">
+            <div class="port-img">
+              <img src="Portfolio_img/8Wikipedia.jpeg" alt="" />
+            </div>
+            <div class="port-content">
+              <h3>Web Developer</h3>
+              <p>
+                Wikipedia Is Basically Where You Can Get Information About Any
+                Topic
+              </p>
+              <div class="btn-box">
+                <a
+                  href="https://royalrockywiki.ccbp.tech/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn"
+                >
+                  Demo
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="port-box mix interest">
+            <div class="port-img">
+              <img src="Portfolio_img/9JokeBox.jpeg" alt="" />
+            </div>
+            <div class="port-content">
+              <h3>Web Developer</h3>
+              <p>Joke Box Is Basically Where You Can Get Many Jokes</p>
+              <div class="btn-box">
+                <a
+                  href="https://rockyjokebox.ccbp.tech/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn"
+                >
+                  Demo
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ----------CONTACT SECTION-------------------------- -->
+    <section class="contact" id="contact">
+      <div class="all-text scroll-scale">
+        <h4>ask me question</h4>
+        <h2>Contact <span>Me</span></h2>
+      </div>
+      <form
+        action="mailto:royalrocky89@gmail.com"
+        method="post"
+        enctype="multipart/form-data"
+        name="EmailForm"
+        class="scroll-bottom"
+      >
+        <input type="text" placeholder="Name" required />
+        <input type="email" placeholder="Email" required />
+        <input type="number" placeholder="Mobile No" required />
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+          required
+        ></textarea>
+        <div class="btn-box formBtn">
+          <button type="submit" value="submit" class="btn">Send</button>
+          &nbsp &nbsp &nbsp
+          <button type="reset" value="reset" class="btn">Reset</button>
+        </div>
+      </form>
+    </section>
+
+    <!-- ----------FOOTER SECTION-------------------------- -->
+    <footer>
+      <p>Copyright &copy; 2025 By DrZoSanta || All Right Reservd.</p>
+      <a href="#home">
+        <i class="bx bx-chevrons-up" style="color: #ea0b0b"></i>
+      </a>
+    </footer>
+
+    <!-- --------------------SCRIPT--------------------------- -->
+
+    <script src="mixitup.min.js"></script>
+
+    <script src="script.js"></script>
+
+    <!-- ---------------------END----------------------------- -->
+  </body>
 </html>
